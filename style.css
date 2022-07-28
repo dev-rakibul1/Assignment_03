@@ -76,14 +76,14 @@ body p {
   background-color: rgb(150, 150, 150);
   position: absolute;
   padding: 5px;
-  border-radius: 2px;
+  border-radius: 50%;
 }
 
 .carousel-control-prev {
-  left: -10%;
+  left: -1.1%;
   top: 50%;
 }
 .carousel-control-next {
-  right: -10%;
+  right: -1.1%;
   top: 50%;
 }
