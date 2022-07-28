@@ -25,10 +25,10 @@
     <!-- Start header seciton -->
     <header>
       <!-- nav -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-xl">
         <div class="container">
           <!-- navbar barnd -->
-          <a class="navbar-brand" href="#"
+          <a class="navbar-brand" href="./index.html"
             >C <span class="text-primary">learner</span></a
           >
 
@@ -51,22 +51,27 @@
               class="navbar-nav me-auto mb-2 mb-lg-0 text-center d-flex justify-content-center w-100"
             >
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Course</a>
+                <a class="nav-link" href="#course">Course</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Deals</a>
+                <a class="nav-link" href="#earn">Earn</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Success</a>
+                <a class="nav-link" href="#success">Success</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#fre">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Register</a>
+                <a class="nav-link" href="#register">Register</a>
               </li>
             </ul>
           </div>
@@ -74,6 +79,8 @@
           <button
             class="btn btn-outline-primary py-2 px-4 text-capitalize fw-bold d-none d-md-inline-block"
             type="submit"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
           >
             resister
           </button>
@@ -103,16 +110,16 @@
                 <article
                   class="d-flex justify-content-center flex-column align-items-center w-100 h-100"
                 >
-                  <h1 class="fw-semibold display-3">
+                  <h1 class="fw-semibold display-3 fs-sm-h">
                     Get Started Digital Learning
                   </h1>
-                  <p class="fw-normal fs-6 text-light">
+                  <p class="fw-normal fs-6 text-light fs-sm-p">
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page when looking at
                     its layout.
                   </p>
                   <button
-                    class="btn btn-primary text-capitalize py-2 px-4 mt-2 fw-bold fs-6"
+                    class="btn btn-primary text-capitalize py-2 px-4 mt-2 fw-bold fs-6 btn-sm"
                   >
                     get Started
                   </button>
@@ -134,10 +141,10 @@
                 <article
                   class="d-flex justify-content-center flex-column align-items-center w-100 h-100"
                 >
-                  <h1 class="fw-semibold display-3">
+                  <h1 class="fw-semibold display-3 fs-sm-h">
                     Get Started Digital Learning
                   </h1>
-                  <p class="fw-normal fs-6 text-light">
+                  <p class="fw-normal fs-6 text-light fs-sm-p">
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page when looking at
                     its layout.
@@ -165,7 +172,7 @@
                 <article
                   class="d-flex justify-content-center flex-column align-items-center w-100 h-100"
                 >
-                  <h1 class="fw-semibold display-3">
+                  <h1 class="fw-semibold display-3 fs-sm-h">
                     Get Started Digital Learning
                   </h1>
                   <p class="fw-normal fs-6 text-light">
@@ -208,10 +215,10 @@
     <!-- main -->
     <main>
       <!-- start course section -->
-      <section class="course section-gap">
+      <section class="course section-gap pt-5" id="course">
         <!-- section title -->
         <div class="container">
-          <div class="section-title text-center w-50 mx-auto">
+          <div class="section-title w-sm-100 text-center w-50 mx-auto">
             <h3 class="display-6 fw-semibold">Discover Our Popular Courses</h3>
             <p class="mt-2 fw-normal">
               It is a long established fact that a reader will be distracted by
@@ -226,13 +233,13 @@
                 <div class="single-box">
                   <!-- course item 01 -->
                   <div
-                    class="course-single-items d-flex align-items-center gap-3 mt-4"
+                    class="course-single-items d-sm-flex align-items-center gap-3 mt-4"
                   >
                     <!-- course thumnail -->
-                    <div class="course-thumbnail">
+                    <div class="course-thumbnail mt-sm-5">
                       <img
                         src="./images/course/course-1.png"
-                        class="img-fluid rounded"
+                        class="img-fluid rounded w-sm-100"
                         alt=""
                       />
                     </div>
@@ -248,13 +255,13 @@
 
                   <!-- course item 02 -->
                   <div
-                    class="course-single-items d-flex align-items-center gap-3 mt-3"
+                    class="course-single-items d-sm-flex align-items-center gap-3 mt-3"
                   >
                     <!-- course thumnail -->
-                    <div class="course-thumbnail">
+                    <div class="course-thumbnail mt-sm-5">
                       <img
                         src="./images/course/course-2.png"
-                        class="img-fluid rounded"
+                        class="img-fluid rounded w-sm-100"
                         alt=""
                       />
                     </div>
@@ -270,13 +277,13 @@
 
                   <!-- course item 03 -->
                   <div
-                    class="course-single-items d-flex align-items-center gap-3 mt-3"
+                    class="course-single-items d-sm-flex align-items-center gap-3 mt-3"
                   >
                     <!-- course thumnail -->
-                    <div class="course-thumbnail">
+                    <div class="course-thumbnail mt-sm-5">
                       <img
                         src="./images/course/course-3.png"
-                        class="img-fluid rounded"
+                        class="img-fluid rounded w-sm-100"
                         alt=""
                       />
                     </div>
@@ -292,13 +299,13 @@
 
                   <!-- course item 05 -->
                   <div
-                    class="course-single-items d-flex align-items-center gap-3 mt-3"
+                    class="course-single-items d-sm-flex align-items-center gap-3 mt-3"
                   >
                     <!-- course thumnail -->
-                    <div class="course-thumbnail">
+                    <div class="course-thumbnail mt-sm-5">
                       <img
                         src="./images/course/course-4.png"
-                        class="img-fluid rounded"
+                        class="img-fluid rounded w-sm-100"
                         alt=""
                       />
                     </div>
@@ -317,13 +324,13 @@
                 <div class="single-box">
                   <!-- course item 01 -->
                   <div
-                    class="course-single-items d-flex align-items-center gap-3 mt-3"
+                    class="course-single-items d-sm-flex align-items-center gap-3 mt-3"
                   >
                     <!-- course thumnail -->
-                    <div class="course-thumbnail">
+                    <div class="course-thumbnail mt-sm-5">
                       <img
                         src="./images/course/course-5.png"
-                        class="img-fluid rounded"
+                        class="img-fluid rounded w-sm-100"
                         alt=""
                       />
                     </div>
@@ -338,13 +345,13 @@
                   </div>
                   <!-- course item 01 -->
                   <div
-                    class="course-single-items d-flex align-items-center gap-3 mt-3"
+                    class="course-single-items d-sm-flex align-items-center gap-3 mt-3"
                   >
                     <!-- course thumnail -->
-                    <div class="course-thumbnail">
+                    <div class="course-thumbnail mt-sm-5">
                       <img
                         src="./images/course/course-6.png"
-                        class="img-fluid rounded"
+                        class="img-fluid rounded w-sm-100"
                         alt=""
                       />
                     </div>
@@ -359,13 +366,13 @@
                   </div>
                   <!-- course item 01 -->
                   <div
-                    class="course-single-items d-flex align-items-center gap-3 mt-3"
+                    class="course-single-items d-sm-flex align-items-center gap-3 mt-3"
                   >
                     <!-- course thumnail -->
-                    <div class="course-thumbnail">
+                    <div class="course-thumbnail mt-sm-5">
                       <img
                         src="./images/course/course-4.png"
-                        class="img-fluid rounded"
+                        class="img-fluid rounded w-sm-100"
                         alt=""
                       />
                     </div>
@@ -380,13 +387,13 @@
                   </div>
                   <!-- course item 01 -->
                   <div
-                    class="course-single-items d-flex align-items-center gap-3 mt-3"
+                    class="course-single-items d-sm-flex align-items-center gap-3 mt-3"
                   >
                     <!-- course thumnail -->
-                    <div class="course-thumbnail">
+                    <div class="course-thumbnail mt-sm-5">
                       <img
                         src="./images/course/course-2.png"
-                        class="img-fluid rounded"
+                        class="img-fluid rounded w-sm-100"
                         alt=""
                       />
                     </div>
@@ -417,16 +424,20 @@
       <!-- end of course section -->
 
       <!-- start earning area -->
-      <section class="earning section-gap h-100">
+      <section class="earning section-gap h-100 pt-5" id="earn">
         <div class="container">
-          <div class="earngin-box d-flex gap-3">
+          <div class="earning-box d-md-flex gap-3">
             <!-- earning thumbnail -->
-            <div class="earingin-thembnail w-50">
-              <img src="./images/working.png" class="img-fluid" alt="" />
+            <div class="earning-thembnail w-50 w-md-100">
+              <img
+                src="./images/working.png"
+                class="img-fluid rounded"
+                alt=""
+              />
             </div>
 
             <!-- earning article -->
-            <div class="w-50">
+            <div class="w-50 w-md-100">
               <article class="d-flex flex-column justify-content-center h-100">
                 <h1 class="fw-semibold">Explore The elearning Institute</h1>
                 <p class="fw-normal mt-2">
@@ -468,7 +479,7 @@
 
                 <!-- course detail btn -->
                 <button
-                  class="w-25 btn btn-primary text-capitalize py-2 px-4 mt-2 fw-bold fs-6 mt-5"
+                  class="btn btn-primary text-capitalize py-2 px-4 mt-2 fw-bold fs-6 mt-5"
                 >
                   Read more
                 </button>
@@ -480,13 +491,13 @@
       <!-- en of earning area -->
 
       <!-- start register section -->
-      <section class="register section-gap">
+      <section class="register section-gap pt-5" id="register">
         <div class="container">
           <div
-            class="register-box bg-primary p-5 rounded d-flex gap-5 justify-content-center align-items-center"
+            class="register-box bg-primary p-5 rounded d-sm-flex gap-5 justify-content-sm-center align-items-sm-center w-sm-100"
           >
             <!-- register info -->
-            <div class="register-single-items w-50">
+            <div class="register-single-items w-50 w-sm-100">
               <h3 class="text-light fw-semibold">Ready to join?</h3>
               <p class="text-light fw-normal">
                 It is a long established fact that a reader will be distracted
@@ -494,9 +505,9 @@
               </p>
             </div>
             <!-- register btn -->
-            <div class="register-single-items w-50 text-end">
+            <div class="register-single-items w-50 text-sm-end w-sm-100">
               <button
-                class="btn btn-light py-2 px-4 text-capitalize fw-bold d-none d-md-inline-block"
+                class="btn btn-light py-2 px-4 text-capitalize fw-bold"
                 type="submit"
                 data-bs-toggle="modal"
                 data-bs-target="#staticBackdrop"
@@ -579,10 +590,10 @@
       <!-- end of register section -->
 
       <!-- start student section -->
-      <section class="student section-gap">
+      <section class="student section-gap pt-5" id="success">
         <div class="container">
           <!-- section title -->
-          <div class="section-title text-start w-50">
+          <div class="section-title w-sm-100 text-start w-50">
             <h3 class="display-6 fw-semibold">Meet Our Successfull Students</h3>
             <p class="mt-2 fw-normal">
               It is a long established fact that a reader will be distracted by
@@ -599,11 +610,11 @@
                   <div class="student-thumbnail">
                     <img
                       src="./images/student/student-1.png"
-                      class="img-fluid rounded"
+                      class="img-fluid rounded w-sm-100"
                       alt=""
                     />
                   </div>
-                  <article class="text-start px-4">
+                  <article class="text-sm-start px-4">
                     <h6 class="fw-semibold mt-2">Awlad Hossain</h6>
                     <p class="fw-normal mt-0">UIUX Designer</p>
                   </article>
@@ -615,11 +626,11 @@
                   <div class="student-thumbnail">
                     <img
                       src="./images/student/student-2.png"
-                      class="img-fluid rounded"
+                      class="img-fluid rounded w-sm-100"
                       alt=""
                     />
                   </div>
-                  <article class="text-start px-4">
+                  <article class="text-sm-start px-4">
                     <h6 class="fw-semibold mt-2">Awlad Hossain</h6>
                     <p class="fw-normal mt-0">UIUX Designer</p>
                   </article>
@@ -631,11 +642,11 @@
                   <div class="student-thumbnail">
                     <img
                       src="./images/student/student-3.png"
-                      class="img-fluid rounded"
+                      class="img-fluid rounded w-sm-100"
                       alt=""
                     />
                   </div>
-                  <article class="text-start px-4">
+                  <article class="text-sm-start px-4">
                     <h6 class="fw-semibold mt-2">Awlad Hossain</h6>
                     <p class="fw-normal mt-0">UIUX Designer</p>
                   </article>
@@ -647,11 +658,11 @@
                   <div class="student-thumbnail">
                     <img
                       src="./images/student/student-4.png"
-                      class="img-fluid rounded"
+                      class="img-fluid rounded w-sm-100"
                       alt=""
                     />
                   </div>
-                  <article class="text-start px-4">
+                  <article class="text-sm-start px-4">
                     <h6 class="fw-semibold mt-2">Awlad Hossain</h6>
                     <p class="fw-normal mt-0">UIUX Designer</p>
                   </article>
@@ -673,10 +684,10 @@
       <!-- end of student section -->
 
       <!-- start studen feedback -->
-      <section class="feedback section-gap">
+      <section class="feedback section-gap pt-5" id="fre">
         <div class="container">
           <!-- section titile -->
-          <div class="section-title text-center w-50 mx-auto">
+          <div class="section-title w-sm-100 text-center w-50 mx-auto">
             <h3 class="display-6 fw-semibold">Some Students Feedback</h3>
             <p class="mt-2 fw-normal">
               It is a long established fact that a reader will be distracted by
@@ -698,7 +709,7 @@
                   <div class="row">
                     <div class="col-md-6">
                       <!-- student message -->
-                      <div class="student-message border p-4 rounded">
+                      <div class="student-message mt-sm-5 border p-4 rounded">
                         <!-- rating and blockquite icon -->
                         <div
                           class="rating-blogqute d-flex justify-content-between align-items-center"
@@ -757,7 +768,7 @@
                     </div>
                     <div class="col-md-6">
                       <!-- student message -->
-                      <div class="student-message border p-4 rounded">
+                      <div class="student-message mt-sm-5 border p-4 rounded">
                         <!-- rating and blockquite icon -->
                         <div
                           class="rating-blogqute d-flex justify-content-between align-items-center"
@@ -821,7 +832,7 @@
                   <div class="row">
                     <div class="col-md-6">
                       <!-- student message -->
-                      <div class="student-message border p-4 rounded">
+                      <div class="student-message mt-sm-5 border p-4 rounded">
                         <!-- rating and blockquite icon -->
                         <div
                           class="rating-blogqute d-flex justify-content-between align-items-center"
@@ -880,7 +891,7 @@
                     </div>
                     <div class="col-md-6">
                       <!-- student message -->
-                      <div class="student-message border p-4 rounded">
+                      <div class="student-message mt-sm-5 border p-4 rounded">
                         <!-- rating and blockquite icon -->
                         <div
                           class="rating-blogqute d-flex justify-content-between align-items-center"
@@ -944,7 +955,7 @@
                   <div class="row">
                     <div class="col-md-6">
                       <!-- student message -->
-                      <div class="student-message border p-4 rounded">
+                      <div class="student-message mt-sm-5 border p-4 rounded">
                         <!-- rating and blockquite icon -->
                         <div
                           class="rating-blogqute d-flex justify-content-between align-items-center"
@@ -1003,7 +1014,7 @@
                     </div>
                     <div class="col-md-6">
                       <!-- student message -->
-                      <div class="student-message border p-4 rounded">
+                      <div class="student-message mt-sm-5 border p-4 rounded">
                         <!-- rating and blockquite icon -->
                         <div
                           class="rating-blogqute d-flex justify-content-between align-items-center"
@@ -1101,7 +1112,7 @@
       <section class="fre-quent section-gap">
         <div class="container">
           <!-- section title -->
-          <div class="section-title text-center w-50 mx-auto">
+          <div class="section-title w-sm-100 text-center w-50 mx-auto">
             <h3 class="display-6 fw-semibold">Frequently Asked Questions</h3>
             <p class="mt-2 fw-normal">
               It is a long established fact that a reader will be distracted by
@@ -1260,7 +1271,7 @@
     <!-- start footer section -->
     <footer class="footer section-gap bg-dark py-5 text-center">
       <div class="container">
-        <div class="footer-info text-light w-25 mx-auto">
+        <div class="footer-info text-light w-50 w-sm-100 mx-auto">
           <h3>c <span class="text-primary">learner</span></h3>
           <p class="text-light">
             Office 41, Zawaya Buildin, Ghala Muscat, Sultanate of Oman
@@ -1283,24 +1294,24 @@
 
           <!-- social icon -->
           <div class="social-link w-100">
-            <ul class="d-flex justify-content-evenly align-items-center">
+            <ul class="d-flex justify-content-center align-items-center">
               <li class="list-unstyled">
-                <a class="text-light" href=""
+                <a class="text-light m-2" href=""
                   ><i class="fa-brands fa-facebook-f"></i
                 ></a>
               </li>
               <li class="list-unstyled">
-                <a class="text-light" href=""
+                <a class="text-light m-2" href=""
                   ><i class="fa-brands fa-twitter"></i
                 ></a>
               </li>
               <li class="list-unstyled">
-                <a class="text-light" href=""
+                <a class="text-light m-2" href=""
                   ><i class="fa-brands fa-linkedin-in"></i
                 ></a>
               </li>
               <li class="list-unstyled">
-                <a class="text-light" href=""
+                <a class="text-light m-2" href=""
                   ><i class="fa-brands fa-tiktok"></i
                 ></a>
               </li>
@@ -1309,6 +1320,7 @@
         </div>
       </div>
     </footer>
+
     <!-- end of footer section -->
     <!-- end main -->
     <!-- bootstrap JS CDN calling -->

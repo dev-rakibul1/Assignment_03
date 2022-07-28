@@ -10,6 +10,14 @@ body p {
   font-size: var(--all__pra__size);
 }
 
+/* nav */
+
+.nav-link {
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
 /* hero slider section styleing */
 
 .carousel-overly-relative {
@@ -90,5 +98,28 @@ body p {
 }
 
 /* -------------------------------------------------------------------------- */
-/*                        Footer section styling
+/*                        Media Queries
 /* -------------------------------------------------------------------------- */
+
+@media (max-width: 576px) {
+  .w-sm-100 {
+    width: 100% !important;
+  }
+  .mt-sm-5 {
+    margin-top: 3rem !important;
+  }
+
+  .fs-sm-h {
+    font-size: 4vw !important;
+  }
+
+  .fs-sm-p {
+    font-size: 2.5vw !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .w-md-100 {
+    width: 100% !important;
+  }
+}
