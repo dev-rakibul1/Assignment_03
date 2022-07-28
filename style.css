@@ -68,8 +68,8 @@ body p {
   font-size: 13px;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
+.feedback-slide .carousel-control-prev,
+.feedback-slide .carousel-control-next {
   height: 30px;
   width: 30px;
   outline: blue;
@@ -77,13 +77,18 @@ body p {
   position: absolute;
   padding: 5px;
   border-radius: 50%;
+  z-index: 5;
 }
 
-.carousel-control-prev {
+.feedback-slide .carousel-control-prev {
   left: -1.1%;
   top: 50%;
 }
-.carousel-control-next {
+.feedback-slide .carousel-control-next {
   right: -1.1%;
   top: 50%;
 }
+
+/* -------------------------------------------------------------------------- */
+/*                        Footer section styling
+/* -------------------------------------------------------------------------- */
