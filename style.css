@@ -1,3 +1,13 @@
+/* css ver */
+
+:root {
+  --all__pra__color: #777777;
+}
+
+body p {
+  color: var(--all__pra__color);
+}
+
 /* hero slider section styleing */
 
 .carousel-overly-relative {
@@ -37,3 +47,7 @@
   font-size: 14px;
   line-height: 18px;
 }
+
+/* -------------------------------------------------------------------------- */
+/*                        earnging section styling
+/* -------------------------------------------------------------------------- */
