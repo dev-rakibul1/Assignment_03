@@ -25,3 +25,15 @@
 .section-gap {
   margin-top: 130px;
 }
+
+/* -------------------------------------------------------------------------- */
+/*                        course section styling
+/* -------------------------------------------------------------------------- */
+
+.course-info h5 {
+  font-size: 20px;
+}
+.course-info p {
+  font-size: 14px;
+  line-height: 18px;
+}
