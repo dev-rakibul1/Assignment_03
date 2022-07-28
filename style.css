@@ -4,7 +4,7 @@
   --all__pra__color: #777777;
   --all__pra__size: 15px;
 }
-
+li,
 body p {
   color: var(--all__pra__color);
   font-size: var(--all__pra__size);
