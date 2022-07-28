@@ -5,12 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Course Learner</title>
+    <!-- font aweasome -->
+    <script
+      src="https://kit.fontawesome.com/178ebc03bb.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- bootstrap CSS CDN calling -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css
     "
     />
+
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
     <!-- main stylesheet calling -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -83,7 +90,7 @@
           <div class="carousel-inner carousel-overly-relative">
             <div
               class="carousel-item carousel-overly-absolute active w-100"
-              data-bs-interval="1000"
+              data-bs-interval="4000"
             >
               <img
                 src="./images/cover/cover-1.png"
@@ -114,7 +121,7 @@
             </div>
             <div
               class="carousel-item carousel-overly-absolute"
-              data-bs-interval="2000"
+              data-bs-interval="4000"
             >
               <img
                 src="./images/cover/cover-2.jpg"
@@ -143,7 +150,10 @@
                 </article>
               </div>
             </div>
-            <div class="carousel-item carousel-overly-absolute">
+            <div
+              class="carousel-item carousel-overly-absolute"
+              data-bs-interval="4000"
+            >
               <img
                 src="./images/cover/cover-3.jpg"
                 class="d-block w-100"
@@ -202,7 +212,7 @@
         <!-- section title -->
         <div class="container">
           <div class="section-title text-center w-50 mx-auto">
-            <h3 class="display-6 fw-bold">Discover Our Popular Courses</h3>
+            <h3 class="display-6 fw-semibold">Discover Our Popular Courses</h3>
             <p class="mt-2 fw-normal">
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout.
@@ -468,10 +478,629 @@
         </div>
       </section>
       <!-- en of earning area -->
+
+      <!-- start register section -->
+      <section class="register section-gap">
+        <div class="container">
+          <div
+            class="register-box bg-primary p-5 rounded d-flex gap-5 justify-content-center align-items-center"
+          >
+            <!-- register info -->
+            <div class="register-single-items w-50">
+              <h3 class="text-light fw-semibold">Ready to join?</h3>
+              <p class="text-light fw-normal">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+              </p>
+            </div>
+            <!-- register btn -->
+            <div class="register-single-items w-50 text-end">
+              <button
+                class="btn btn-light py-2 px-4 text-capitalize fw-bold d-none d-md-inline-block"
+                type="submit"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+                resister now
+              </button>
+            </div>
+
+            <!-- modal -->
+            <!-- Button trigger modal -->
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">
+                      Register now
+                    </h5>
+
+                    <!-- close icon -->
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+
+                  <!-- modal body -->
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <input
+                          type="email"
+                          class="form-control"
+                          placeholder="Email"
+                          aria-describedby="emailHelp"
+                        />
+                      </div>
+                      <div class="mb-3">
+                        <input
+                          type="password"
+                          class="form-control"
+                          placeholder="New password"
+                        />
+                      </div>
+
+                      <!-- confirm password -->
+                      <div class="mb-3">
+                        <input
+                          type="password"
+                          class="form-control"
+                          placeholder="Confirm password"
+                        />
+                      </div>
+                      <!-- sub -->
+                      <input
+                        type="submit"
+                        class="btn btn-primary"
+                        value="Submit"
+                      />
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end modal -->
+          </div>
+        </div>
+      </section>
+      <!-- end of register section -->
+
+      <!-- start student section -->
+      <section class="student section-gap">
+        <div class="container">
+          <!-- section title -->
+          <div class="section-title text-start w-50">
+            <h3 class="display-6 fw-semibold">Meet Our Successfull Students</h3>
+            <p class="mt-2 fw-normal">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout.
+            </p>
+          </div>
+
+          <!-- studen area -->
+          <div class="studen-area mt-5">
+            <div class="row">
+              <!-- item 01 -->
+              <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                <div class="student-single-items">
+                  <div class="student-thumbnail">
+                    <img
+                      src="./images/student/student-1.png"
+                      class="img-fluid rounded"
+                      alt=""
+                    />
+                  </div>
+                  <article class="text-start px-4">
+                    <h6 class="fw-semibold mt-2">Awlad Hossain</h6>
+                    <p class="fw-normal mt-0">UIUX Designer</p>
+                  </article>
+                </div>
+              </div>
+              <!-- item 02 -->
+              <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                <div class="student-single-items">
+                  <div class="student-thumbnail">
+                    <img
+                      src="./images/student/student-2.png"
+                      class="img-fluid rounded"
+                      alt=""
+                    />
+                  </div>
+                  <article class="text-start px-4">
+                    <h6 class="fw-semibold mt-2">Awlad Hossain</h6>
+                    <p class="fw-normal mt-0">UIUX Designer</p>
+                  </article>
+                </div>
+              </div>
+              <!-- item 03 -->
+              <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                <div class="student-single-items">
+                  <div class="student-thumbnail">
+                    <img
+                      src="./images/student/student-3.png"
+                      class="img-fluid rounded"
+                      alt=""
+                    />
+                  </div>
+                  <article class="text-start px-4">
+                    <h6 class="fw-semibold mt-2">Awlad Hossain</h6>
+                    <p class="fw-normal mt-0">UIUX Designer</p>
+                  </article>
+                </div>
+              </div>
+              <!-- item 04 -->
+              <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                <div class="student-single-items">
+                  <div class="student-thumbnail">
+                    <img
+                      src="./images/student/student-4.png"
+                      class="img-fluid rounded"
+                      alt=""
+                    />
+                  </div>
+                  <article class="text-start px-4">
+                    <h6 class="fw-semibold mt-2">Awlad Hossain</h6>
+                    <p class="fw-normal mt-0">UIUX Designer</p>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- student btn -->
+          <div class="student-btn w-100 text-center">
+            <button
+              class="btn btn-primary text-capitalize py-2 px-4 mt-2 fw-bold fs-6 mt-5"
+            >
+              View All
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- end of student section -->
+
+      <!-- start studen feedback -->
+      <section class="feedback section-gap">
+        <div class="container">
+          <!-- section titile -->
+          <div class="section-title text-center w-50 mx-auto">
+            <h3 class="display-6 fw-semibold">Some Students Feedback</h3>
+            <p class="mt-2 fw-normal">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout.
+            </p>
+          </div>
+
+          <!-- feedback slide -->
+          <div class="feedback-slide">
+            <!-- feedback slide -->
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <!-- slide 01 -->
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <!-- student message -->
+                      <div class="student-message">
+                        <!-- rating and blockquite icon -->
+                        <div
+                          class="rating-blogqute d-flex justify-content-between align-items-center"
+                        >
+                          <!-- blockqute icon -->
+                          <div class="blockqute-icon display-2">
+                            <i class="fa-solid fa-quote-right"></i>
+                          </div>
+                          <!-- rating icon -->
+                          <ul class="rating d-flex text-warning">
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <!-- comment -->
+                        <div class="comment">
+                          <p class="fw-normal">
+                            There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration
+                            in some form, by injected humour, or randomised
+                            words which don't look even slightly believable. If
+                            you are going to use a passage of Lorem.
+                          </p>
+                        </div>
+
+                        <!-- qute user -->
+                        <div
+                          class="qute-user d-flex justify-content-start gap-3 align-items-center"
+                        >
+                          <img
+                            src="./images/student/student-5.png"
+                            class="img-fluid"
+                            alt=""
+                          />
+                          <!-- user name -->
+                          <div class="user-name">
+                            <h6 class="fs-6">Awlad Hossain</h6>
+                            <p class="mt-0">UI Designer</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <!-- student message -->
+                      <div class="student-message">
+                        <!-- rating and blockquite icon -->
+                        <div
+                          class="rating-blogqute d-flex justify-content-between align-items-center"
+                        >
+                          <!-- blockqute icon -->
+                          <div class="blockqute-icon display-2">
+                            <i class="fa-solid fa-quote-right"></i>
+                          </div>
+                          <!-- rating icon -->
+                          <ul class="rating d-flex text-warning">
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <!-- comment -->
+                        <div class="comment">
+                          <p class="fw-normal">
+                            There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration
+                            in some form, by injected humour, or randomised
+                            words which don't look even slightly believable. If
+                            you are going to use a passage of Lorem.
+                          </p>
+                        </div>
+
+                        <!-- qute user -->
+                        <div
+                          class="qute-user d-flex justify-content-start gap-3 align-items-center"
+                        >
+                          <img
+                            src="./images/student/student-6.png"
+                            class="img-fluid"
+                            alt=""
+                          />
+                          <!-- user name -->
+                          <div class="user-name">
+                            <h6 class="fs-6">Awlad Hossain</h6>
+                            <p class="mt-0">UI Designer</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- slide 2 -->
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <!-- student message -->
+                      <div class="student-message">
+                        <!-- rating and blockquite icon -->
+                        <div
+                          class="rating-blogqute d-flex justify-content-between align-items-center"
+                        >
+                          <!-- blockqute icon -->
+                          <div class="blockqute-icon display-2">
+                            <i class="fa-solid fa-quote-right"></i>
+                          </div>
+                          <!-- rating icon -->
+                          <ul class="rating d-flex text-warning">
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <!-- comment -->
+                        <div class="comment">
+                          <p class="fw-normal">
+                            There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration
+                            in some form, by injected humour, or randomised
+                            words which don't look even slightly believable. If
+                            you are going to use a passage of Lorem.
+                          </p>
+                        </div>
+
+                        <!-- qute user -->
+                        <div
+                          class="qute-user d-flex justify-content-start gap-3 align-items-center"
+                        >
+                          <img
+                            src="./images/student/student-5.png"
+                            class="img-fluid"
+                            alt=""
+                          />
+                          <!-- user name -->
+                          <div class="user-name">
+                            <h6 class="fs-6">Awlad Hossain</h6>
+                            <p class="mt-0">UI Designer</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <!-- student message -->
+                      <div class="student-message">
+                        <!-- rating and blockquite icon -->
+                        <div
+                          class="rating-blogqute d-flex justify-content-between align-items-center"
+                        >
+                          <!-- blockqute icon -->
+                          <div class="blockqute-icon display-2">
+                            <i class="fa-solid fa-quote-right"></i>
+                          </div>
+                          <!-- rating icon -->
+                          <ul class="rating d-flex text-warning">
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <!-- comment -->
+                        <div class="comment">
+                          <p class="fw-normal">
+                            There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration
+                            in some form, by injected humour, or randomised
+                            words which don't look even slightly believable. If
+                            you are going to use a passage of Lorem.
+                          </p>
+                        </div>
+
+                        <!-- qute user -->
+                        <div
+                          class="qute-user d-flex justify-content-start gap-3 align-items-center"
+                        >
+                          <img
+                            src="./images/student/student-6.png"
+                            class="img-fluid"
+                            alt=""
+                          />
+                          <!-- user name -->
+                          <div class="user-name">
+                            <h6 class="fs-6">Awlad Hossain</h6>
+                            <p class="mt-0">UI Designer</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- slide 3 -->
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <!-- student message -->
+                      <div class="student-message">
+                        <!-- rating and blockquite icon -->
+                        <div
+                          class="rating-blogqute d-flex justify-content-between align-items-center"
+                        >
+                          <!-- blockqute icon -->
+                          <div class="blockqute-icon display-2">
+                            <i class="fa-solid fa-quote-right"></i>
+                          </div>
+                          <!-- rating icon -->
+                          <ul class="rating d-flex text-warning">
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <!-- comment -->
+                        <div class="comment">
+                          <p class="fw-normal">
+                            There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration
+                            in some form, by injected humour, or randomised
+                            words which don't look even slightly believable. If
+                            you are going to use a passage of Lorem.
+                          </p>
+                        </div>
+
+                        <!-- qute user -->
+                        <div
+                          class="qute-user d-flex justify-content-start gap-3 align-items-center"
+                        >
+                          <img
+                            src="./images/student/student-5.png"
+                            class="img-fluid"
+                            alt=""
+                          />
+                          <!-- user name -->
+                          <div class="user-name">
+                            <h6 class="fs-6">Awlad Hossain</h6>
+                            <p class="mt-0">UI Designer</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <!-- student message -->
+                      <div class="student-message">
+                        <!-- rating and blockquite icon -->
+                        <div
+                          class="rating-blogqute d-flex justify-content-between align-items-center"
+                        >
+                          <!-- blockqute icon -->
+                          <div class="blockqute-icon display-2">
+                            <i class="fa-solid fa-quote-right"></i>
+                          </div>
+                          <!-- rating icon -->
+                          <ul class="rating d-flex text-warning">
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li class="list-unstyled">
+                              <i class="fa-solid fa-star"></i>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <!-- comment -->
+                        <div class="comment">
+                          <p class="fw-normal">
+                            There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration
+                            in some form, by injected humour, or randomised
+                            words which don't look even slightly believable. If
+                            you are going to use a passage of Lorem.
+                          </p>
+                        </div>
+
+                        <!-- qute user -->
+                        <div
+                          class="qute-user d-flex justify-content-start gap-3 align-items-center"
+                        >
+                          <img
+                            src="./images/student/student-6.png"
+                            class="img-fluid"
+                            alt=""
+                          />
+                          <!-- user name -->
+                          <div class="user-name">
+                            <h6 class="fs-6">Awlad Hossain</h6>
+                            <p class="mt-0">UI Designer</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- prev btn -->
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon text-success"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+
+              <!-- nest btn -->
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of student feedback -->
     </main>
     <!-- end main -->
     <!-- bootstrap JS CDN calling -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js
     "></script>
+    <!-- <script src="./css/bootstrap.min.js"></script> -->
   </body>
 </html>

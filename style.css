@@ -2,10 +2,12 @@
 
 :root {
   --all__pra__color: #777777;
+  --all__pra__size: 15px;
 }
 
 body p {
   color: var(--all__pra__color);
+  font-size: var(--all__pra__size);
 }
 
 /* hero slider section styleing */
@@ -49,5 +51,39 @@ body p {
 }
 
 /* -------------------------------------------------------------------------- */
-/*                        earnging section styling
+/*                        feedback section styling
 /* -------------------------------------------------------------------------- */
+
+.blockqute-icon {
+  color: rgb(150, 150, 150);
+}
+
+.user-name h6 {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+.user-name p {
+  font-size: 13px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  height: 30px;
+  width: 30px;
+  outline: blue;
+  background-color: rgb(150, 150, 150);
+  position: absolute;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.carousel-control-prev {
+  left: -10%;
+  top: 50%;
+}
+.carousel-control-next {
+  right: -10%;
+  top: 50%;
+}
